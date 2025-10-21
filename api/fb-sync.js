@@ -1,6 +1,7 @@
-const axios = require("axios");
-const { BigQuery } = require("@google-cloud/bigquery");
-require("dotenv").config();
+import axios from "axios";
+import { BigQuery } from "@google-cloud/bigquery";
+import dotenv from "dotenv";
+dotenv.config();
 
 
 const bigquery = new BigQuery({
